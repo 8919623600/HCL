@@ -24,7 +24,7 @@ kind: Service
 metadata:
   name: node-app-service
 spec:
-  type: LoadBalancer
+  type: ClusterIP
   selector:
     app: node-app
   ports:
